@@ -1,0 +1,25 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# MATLAB / Simulink
+*.asv
+*.autosave
+slprj/
+*.slxc
+*.mexw64
+*.mexa64
+codegen/
+
+# Office temp
+~$*
