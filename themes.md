@@ -4,7 +4,7 @@
 
 | # | slug | 主题 | 状态 | 备注 |
 |---|------|------|------|------|
-| 1 | `rl-step` | RL 电路阶跃响应 | todo | 时间常数 τ=L/R |
+| 1 | `rl-step` | RL 电路阶跃响应 | done | 时间常数 τ=L/R |
 | 2 | `rc-charge` | RC 充放电 | todo | τ=RC，63.2% |
 | 3 | `rlc-series-step` | RLC 串联阶跃：欠/临界/过阻尼 | todo | ζ 对比 |
 | 4 | `buck-pwm` | Buck 变换器开环 PWM | todo | 纹波与占空比 |
