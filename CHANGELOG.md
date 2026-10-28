@@ -2,6 +2,10 @@
 
 格式：`YYYY-MM-DD` · 新增/修改 · slug · 简述
 
+## 2026-10-28
+- 新增 · `rc-charge` · RC 充放电案例卡（τ = RC = 10 ms；充电电压 63.2%，放电电压 36.8%；Simulink 步骤，MATLAB / Python 可运行脚本）
+- 修改 · `rl-step` · 相关链接改为指向已完成的 `rc-charge` 案例卡
+
 ## 2026-10-27
 - 新增 · `rl-step` · RL 电路阶跃响应案例卡（τ = L/R = 10 ms；Simulink 步骤，MATLAB / Python 可运行脚本）
 

@@ -158,4 +158,4 @@ slope0_A_per_s   = 100.000000
 ## 8. 相关链接
 
 - 案例卡字段约定：[docs/case-convention.md](../../docs/case-convention.md)
-- 同一阶系统的对照主题：`rc-charge`（RC 充放电，`τ = RC`），见仓库根目录 `themes.md`。那张卡单独成文之前，不要把本卡的 RL 公式直接换字母交差。
+- 同一阶系统的对照案例：[RC 充放电（rc-charge）](../rc-charge/README.md)。两边都把 `τ` 取成 10 ms：这边看电流，那边看电容电压。不要把字母 L 换成 C 就算讲完。
