@@ -6,7 +6,7 @@
 |---|------|------|------|------|
 | 1 | `rl-step` | RL 电路阶跃响应 | done | 时间常数 τ=L/R |
 | 2 | `rc-charge` | RC 充放电 | done | τ=RC，63.2% |
-| 3 | `rlc-series-step` | RLC 串联阶跃：欠/临界/过阻尼 | todo | ζ 对比 |
+| 3 | `rlc-series-step` | RLC 串联阶跃：欠/临界/过阻尼 | done | ζ 对比 |
 | 4 | `buck-pwm` | Buck 变换器开环 PWM | todo | 纹波与占空比 |
 | 5 | `boost-pwm` | Boost 变换器开环 PWM | todo | Vo=Vin/(1-D) |
 | 6 | `single-phase-rectifier` | 单相桥式整流 + 电容滤波 | todo | 纹波估算 |

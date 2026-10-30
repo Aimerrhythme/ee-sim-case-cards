@@ -158,4 +158,5 @@ slope0_A_per_s   = 100.000000
 ## 8. 相关链接
 
 - 案例卡字段约定：[docs/case-convention.md](../../docs/case-convention.md)
-- 同一阶系统的对照案例：[RC 充放电（rc-charge）](../rc-charge/README.md)。两边都把 `τ` 取成 10 ms：这边看电流，那边看电容电压。不要把字母 L 换成 C 就算讲完。
+- 同一阶系统的对照案例：[RC 充放电（rc-charge）](../rc-charge/README.md)。两边都把 `τ` 取成 10 ms：这边看电流，那边看电容电压。
+- 电感和电容同时留下时的二阶阶跃：[RLC 串联阶跃（rlc-series-step）](../rlc-series-step/README.md)。L 仍是 100 mH，稳态电流变成 0，阻尼比 ζ 决定会不会过冲。

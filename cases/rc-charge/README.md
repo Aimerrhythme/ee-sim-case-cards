@@ -193,3 +193,4 @@ slope0_V_per_s         = 1000.000000
 
 - 案例卡字段约定：[docs/case-convention.md](../../docs/case-convention.md)
 - 同一阶系统的对照案例：[RL 电路阶跃响应（rl-step）](../rl-step/README.md)。两边都把 `τ` 取成 10 ms：那边看电流升到 63.2%，这边看电容电压升到 63.2%。
+- 再串上电感之后的二阶阶跃：[RLC 串联阶跃（rlc-series-step）](../rlc-series-step/README.md)。电容电压的稳态仍是电源电压；`ζ < 1` 时会过冲，不再是一条单调指数。
