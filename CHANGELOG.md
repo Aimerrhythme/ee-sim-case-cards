@@ -2,6 +2,10 @@
 
 格式：`YYYY-MM-DD` · 新增/修改 · slug · 简述
 
+## 2026-11-02
+- 新增 · `buck-pwm` · Buck 变换器开环 PWM 案例卡（Vin = 12 V、D = 0.5、fs = 10 kHz、L = 1 mH、C = 25 μF、R = 6 Ω；Vo = 6 V，ΔiL = 0.3 A，Δvo ≈ 0.15 V；CCM/DCM 边界 R = 40 Ω；Simscape Electrical 步骤，MATLAB / Python 可运行脚本）
+- 修改 · `rlc-series-step` · 相关链接指向已完成的 `buck-pwm`
+
 ## 2026-10-30
 - 新增 · `rlc-series-step` · RLC 串联阶跃案例卡（L = 100 mH、C = 10 μF 固定，ω0 = 1000 rad/s；R = 100/200/400 Ω 对应 ζ = 0.5/1/2；欠阻尼超调 16.3%；Simulink 步骤，MATLAB / Python 可运行脚本）
 - 修改 · `rl-step`、`rc-charge` · 相关链接指向已完成的 `rlc-series-step`

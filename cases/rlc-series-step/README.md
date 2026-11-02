@@ -240,3 +240,4 @@ over_vc_25ms_V         = 9.986722
 - 案例卡字段约定：[docs/case-convention.md](../../docs/case-convention.md)
 - 电感单独存在时的一阶阶跃：[RL 电路阶跃响应（rl-step）](../rl-step/README.md)。那边稳态电流是 `Vs/R`，这边稳态电流是 0。
 - 电容单独存在时的一阶充放电：[RC 充放电（rc-charge）](../rc-charge/README.md)。那边电压单调趋向 `Vs`，这边只有 `ζ ≥ 1` 才单调。
+- 把 LC 接到直流斩波的输出端：[Buck 变换器开环 PWM（buck-pwm）](../buck-pwm/README.md)。电阻改接到电容两端，稳态电压由占空比决定，电感和电容留下的是纹波。
