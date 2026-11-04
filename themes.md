@@ -8,7 +8,7 @@
 | 2 | `rc-charge` | RC 充放电 | done | τ=RC，63.2% |
 | 3 | `rlc-series-step` | RLC 串联阶跃：欠/临界/过阻尼 | done | ζ 对比 |
 | 4 | `buck-pwm` | Buck 变换器开环 PWM | done | 纹波与占空比 |
-| 5 | `boost-pwm` | Boost 变换器开环 PWM | todo | Vo=Vin/(1-D) |
+| 5 | `boost-pwm` | Boost 变换器开环 PWM | doing | Vo=Vin/(1-D) |
 | 6 | `single-phase-rectifier` | 单相桥式整流 + 电容滤波 | todo | 纹波估算 |
 | 7 | `three-phase-inverter-spwm` | 三相 SPWM 逆变器 | todo | 调制比与线电压 |
 | 8 | `motor-vf` | 异步电机 V/f 恒压频比控制 | todo | 低频补偿 |
