@@ -278,3 +278,4 @@ Buck open-loop PWM
 
 - 案例卡字段约定：[docs/case-convention.md](../../docs/case-convention.md)
 - 输出滤波器上的二阶振荡从这里来：[RLC 串联阶跃（rlc-series-step）](../rlc-series-step/README.md)。那边电阻串联，ζ 用 `(R/2)·√(C/L)`；这边电阻并联在电容上，ζ 用 `√(L/C)/(2R)`。
+- 同一组元件换个位置升压：[Boost 变换器开环 PWM（boost-pwm）](../boost-pwm/README.md)。电感挪到输入侧，`Vo = Vin/(1−D)`，电压纹波变成锯齿。
