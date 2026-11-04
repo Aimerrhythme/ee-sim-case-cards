@@ -2,6 +2,10 @@
 
 格式：`YYYY-MM-DD` · 新增/修改 · slug · 简述
 
+## 2026-11-04
+- 新增 · `boost-pwm` · Boost 变换器开环 PWM 案例卡（Vin = 12 V、D = 0.5、fs = 10 kHz、L = 1 mH、C = 100 μF、R = 48 Ω；Vo = 24 V，IL = 1 A，ΔiL = 0.6 A，Δvo = 0.25 V；CCM/DCM 边界 R = 160 Ω，R = 320 Ω 断续约 30.7 V；启动过冲约 43.7 V；Simscape Electrical 步骤，MATLAB / Python 可运行脚本）
+- 修改 · `buck-pwm` · 相关链接指向已完成的 `boost-pwm`
+
 ## 2026-11-02
 - 新增 · `buck-pwm` · Buck 变换器开环 PWM 案例卡（Vin = 12 V、D = 0.5、fs = 10 kHz、L = 1 mH、C = 25 μF、R = 6 Ω；Vo = 6 V，ΔiL = 0.3 A，Δvo ≈ 0.15 V；CCM/DCM 边界 R = 40 Ω；Simscape Electrical 步骤，MATLAB / Python 可运行脚本）
 - 修改 · `rlc-series-step` · 相关链接指向已完成的 `buck-pwm`
