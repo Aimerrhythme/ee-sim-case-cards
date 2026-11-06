@@ -278,3 +278,4 @@ Boost open-loop PWM
 - 案例卡字段约定：[docs/case-convention.md](../../docs/case-convention.md)
 - 同一组元件换个位置：[Buck 变换器开环 PWM（buck-pwm）](../buck-pwm/README.md)。Buck 的电感在输出侧、`Vo = D·Vin`；Boost 的电感在输入侧、`Vo = Vin/(1−D)`。
 - 二阶振荡与阻尼比：[RLC 串联阶跃（rlc-series-step）](../rlc-series-step/README.md)。这里的等效电感是 `L/(1−D)²`，电阻并联在电容上。
+- 直流母线从哪来：[单相桥式整流 + 电容滤波（single-phase-rectifier）](../single-phase-rectifier/README.md)。母线上的纹波同样是电流乘时间再除以 C；那里的时间是半个工频周期，不是开关导通时间。
