@@ -2,6 +2,10 @@
 
 格式：`YYYY-MM-DD` · 新增/修改 · slug · 简述
 
+## 2026-11-06
+- 新增 · `single-phase-rectifier` · 单相桥式整流 + 电容滤波案例卡（Vm = 100 V、f = 50 Hz、R = 100 Ω、C = 1000 μF；不接电容平均 2Vm/π ≈ 63.662 V；纹波估算 ΔV = 10 V、平均估算 95 V；导通角解析纹波 8.282 V、平均 96.007 V；C 加倍估算 5 V；过零合闸电流约 10π A；峰值合闸串 1 Ω 时 i(0+) = 100 A；Simscape Electrical 步骤，MATLAB / Python 可运行脚本）
+- 修改 · `boost-pwm` · 相关链接指向已完成的 `single-phase-rectifier`
+
 ## 2026-11-04
 - 新增 · `boost-pwm` · Boost 变换器开环 PWM 案例卡（Vin = 12 V、D = 0.5、fs = 10 kHz、L = 1 mH、C = 100 μF、R = 48 Ω；Vo = 24 V，IL = 1 A，ΔiL = 0.6 A，Δvo = 0.25 V；CCM/DCM 边界 R = 160 Ω，R = 320 Ω 断续约 30.7 V；启动过冲约 43.7 V；Simscape Electrical 步骤，MATLAB / Python 可运行脚本）
 - 修改 · `buck-pwm` · 相关链接指向已完成的 `boost-pwm`
