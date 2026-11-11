@@ -2,6 +2,10 @@
 
 格式：`YYYY-MM-DD` · 新增/修改 · slug · 简述
 
+## 2026-11-11
+- 新增 · `three-phase-inverter-spwm` · 三相 SPWM 逆变器案例卡（Vdc = 200 V、m = 0.8、f1 = 50 Hz、mf = 21、fc = 1050 Hz；线性区 V_LL,1(peak) = (√3/2)·m·Vdc = 138.564 V；过调制 m = 1.2 时自然采样 191.196 V，不再外推到 207.846 V；六阶梯上限 (2√3/π)·Vdc = 220.532 V；星形 RL 为 R = 10 Ω、L = 20 mH；Simulink 步骤，MATLAB / Python 可运行脚本）
+- 修改 · `single-phase-rectifier` · 相关链接指向已完成的 `three-phase-inverter-spwm`
+
 ## 2026-11-06
 - 新增 · `single-phase-rectifier` · 单相桥式整流 + 电容滤波案例卡（Vm = 100 V、f = 50 Hz、R = 100 Ω、C = 1000 μF；不接电容平均 2Vm/π ≈ 63.662 V；纹波估算 ΔV = 10 V、平均估算 95 V；导通角解析纹波 8.282 V、平均 96.007 V；C 加倍估算 5 V；过零合闸电流约 10π A；峰值合闸串 1 Ω 时 i(0+) = 100 A；Simscape Electrical 步骤，MATLAB / Python 可运行脚本）
 - 修改 · `boost-pwm` · 相关链接指向已完成的 `single-phase-rectifier`
