@@ -10,7 +10,7 @@
 | 4 | `buck-pwm` | Buck 变换器开环 PWM | done | 纹波与占空比 |
 | 5 | `boost-pwm` | Boost 变换器开环 PWM | done | Vo=Vin/(1-D) |
 | 6 | `single-phase-rectifier` | 单相桥式整流 + 电容滤波 | done | 纹波估算 |
-| 7 | `three-phase-inverter-spwm` | 三相 SPWM 逆变器 | todo | 调制比与线电压 |
+| 7 | `three-phase-inverter-spwm` | 三相 SPWM 逆变器 | done | 调制比与线电压 |
 | 8 | `motor-vf` | 异步电机 V/f 恒压频比控制 | todo | 低频补偿 |
 | 9 | `dc-motor-open-loop` | 直流电机开环启动 | todo | 电流冲击 |
 | 10 | `pi-speed-loop` | 直流电机 PI 转速环 | todo | Kp/Ki 调试 |
