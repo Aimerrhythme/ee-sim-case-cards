@@ -323,3 +323,4 @@ Single-phase bridge rectifier + C filter
 - 案例卡字段约定：[docs/case-convention.md](../../docs/case-convention.md)
 - 截止以后的那一段指数：[RC 充放电（rc-charge）](../rc-charge/README.md)。这里 `τ = RC = 100 ms`，半周只有 10 ms，放电只走了指数开头的一小段。
 - 纹波同样是「电流乘时间再除以 C」：[Boost 变换器开环 PWM（boost-pwm）](../boost-pwm/README.md)。Boost 的 `Δt` 是开关导通时间，这里的 `Δt` 是半个工频周期。很多 Boost 的输入母线，就是这只电容后面的直流。
+- 这只电容后面的直流接到三相桥，就是下一张卡的母线：[三相 SPWM 逆变器（three-phase-inverter-spwm）](../three-phase-inverter-spwm/README.md)。那边把 `Vdc` 当成理想电压源，线电压基波由调制比决定；这边的纹波就是那只理想源里被拿掉的部分。
