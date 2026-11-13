@@ -2,6 +2,10 @@
 
 格式：`YYYY-MM-DD` · 新增/修改 · slug · 简述
 
+## 2026-11-13
+- 新增 · `motor-vf` · 异步电机 V/f 恒压频比控制案例卡（4 极示例，Y 接，380 V / 50 Hz；Rs = 2.2 Ω、Rr = 1.8 Ω、Lls = Llr = 0.012 H、Lm = 0.24 H、J = 0.04 kg·m²；空载 1500 r/min；15 N·m 时滑差 0.035724、转速 1446.414 r/min、轴功率 2272.022 W；5 Hz、8 N·m 无补偿 95.613 r/min，低频提升 Vboost = 25 V 后 142.469 r/min，最大转矩比 4.102879 等于电压比的平方；Simscape Electrical 步骤，MATLAB / Python 可运行脚本）
+- 修改 · `three-phase-inverter-spwm` · 相关链接指向已完成的 `motor-vf`
+
 ## 2026-11-11
 - 新增 · `three-phase-inverter-spwm` · 三相 SPWM 逆变器案例卡（Vdc = 200 V、m = 0.8、f1 = 50 Hz、mf = 21、fc = 1050 Hz；线性区 V_LL,1(peak) = (√3/2)·m·Vdc = 138.564 V；过调制 m = 1.2 时自然采样 191.196 V，不再外推到 207.846 V；六阶梯上限 (2√3/π)·Vdc = 220.532 V；星形 RL 为 R = 10 Ω、L = 20 mH；Simulink 步骤，MATLAB / Python 可运行脚本）
 - 修改 · `single-phase-rectifier` · 相关链接指向已完成的 `three-phase-inverter-spwm`

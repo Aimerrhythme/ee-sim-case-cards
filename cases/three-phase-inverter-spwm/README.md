@@ -341,3 +341,4 @@ Three-phase SPWM inverter
 
 - 案例卡字段约定：[docs/case-convention.md](../../docs/case-convention.md)
 - 直流母线从哪来：[单相桥式整流 + 电容滤波（single-phase-rectifier）](../single-phase-rectifier/README.md)。那边的电容把馒头波收成直流；这里把 `Vdc` 当成理想电压源，不再带那 100 Hz 的纹波。
+- 这组交流电压送到电机上以后：[异步电机 V/f 恒压频比控制（motor-vf）](../motor-vf/README.md)。这边的桥负责把母线切成交流；那边把斩波换成理想正弦，看恒压频比和低频电压提升。两边的电压各算各的：这边母线是 200 V，那边是 380 V 的示例电机。
