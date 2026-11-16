@@ -160,3 +160,4 @@ slope0_A_per_s   = 100.000000
 - 案例卡字段约定：[docs/case-convention.md](../../docs/case-convention.md)
 - 同一阶系统的对照案例：[RC 充放电（rc-charge）](../rc-charge/README.md)。两边都把 `τ` 取成 10 ms：这边看电流，那边看电容电压。
 - 电感和电容同时留下时的二阶阶跃：[RLC 串联阶跃（rlc-series-step）](../rlc-series-step/README.md)。L 仍是 100 mH，稳态电流变成 0，阻尼比 ζ 决定会不会过冲。
+- 电枢回路就是一个串联 RL：[直流电机开环启动（dc-motor-open-loop）](../dc-motor-open-loop/README.md)。转子卡住时电流就是本卡的曲线（`τ_e = La/Ra = 10 ms`）；转子一转，反电势把电流在 440 A 之前拉回来。

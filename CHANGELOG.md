@@ -2,6 +2,10 @@
 
 格式：`YYYY-MM-DD` · 新增/修改 · slug · 简述
 
+## 2026-11-16
+- 新增 · `dc-motor-open-loop` · 直流电机开环启动案例卡（他励励磁恒定 / 永磁示例，Va = 220 V、Ra = 0.5 Ω、La = 5 mH、Ke = Kt = 1 V·s/rad、J = 0.2 kg·m²、B = 0.005 N·m·s；堵转电流 Va/Ra = 440 A（22 倍额定），直接启动峰值 367.289 A @ 26.642 ms；τ_e = 10 ms、τ_m = 100 ms，真实时间常数 11.271 / 88.505 ms；空载 2095.606 r/min，0.8 s 加 20 N·m 后 2000.351 r/min、21.047 A、轴功率 4189.526 W；串 5 Ω 启动电阻峰值 39.798 A、1.5 s 转速 1541.150 r/min；Simulink 基础库 / Simscape Electrical DC Motor 步骤，MATLAB / Python 可运行脚本）
+- 修改 · `rl-step`、`motor-vf` · 相关链接指向已完成的 `dc-motor-open-loop`
+
 ## 2026-11-13
 - 新增 · `motor-vf` · 异步电机 V/f 恒压频比控制案例卡（4 极示例，Y 接，380 V / 50 Hz；Rs = 2.2 Ω、Rr = 1.8 Ω、Lls = Llr = 0.012 H、Lm = 0.24 H、J = 0.04 kg·m²；空载 1500 r/min；15 N·m 时滑差 0.035724、转速 1446.414 r/min、轴功率 2272.022 W；5 Hz、8 N·m 无补偿 95.613 r/min，低频提升 Vboost = 25 V 后 142.469 r/min，最大转矩比 4.102879 等于电压比的平方；Simscape Electrical 步骤，MATLAB / Python 可运行脚本）
 - 修改 · `three-phase-inverter-spwm` · 相关链接指向已完成的 `motor-vf`

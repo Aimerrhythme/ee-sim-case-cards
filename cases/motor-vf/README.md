@@ -323,3 +323,4 @@ Induction motor V/f
 
 - 案例卡字段约定：[docs/case-convention.md](../../docs/case-convention.md)
 - 正弦电压从哪来：[三相 SPWM 逆变器（three-phase-inverter-spwm）](../three-phase-inverter-spwm/README.md)。那边把直流母线切成斩波，线电压基波由调制比决定；这里把斩波换成理想正弦，专门看 V/f 和低频提升。
+- 直流电机的同一个启动问题：[直流电机开环启动（dc-motor-open-loop）](../dc-motor-open-loop/README.md)。直接加 220 V 时电枢电流冲到 367 A（约 18 倍额定），用启动电阻对照限流。
