@@ -13,7 +13,7 @@
 | 7 | `three-phase-inverter-spwm` | 三相 SPWM 逆变器 | done | 调制比与线电压 |
 | 8 | `motor-vf` | 异步电机 V/f 恒压频比控制 | done | 低频补偿 |
 | 9 | `dc-motor-open-loop` | 直流电机开环启动 | done | 电流冲击 |
-| 10 | `pi-speed-loop` | 直流电机 PI 转速环 | todo | Kp/Ki 调试 |
+| 10 | `pi-speed-loop` | 直流电机 PI 转速环 | done | Kp/Ki 调试 |
 | 11 | `transformer-inrush` | 变压器励磁涌流 | todo | 合闸角影响 |
 | 12 | `three-phase-short-circuit` | 三相短路电流暂态 | todo | 非周期分量 |
 | 13 | `pll-grid-sync` | SRF-PLL 锁相 | todo | 动态跟踪 |

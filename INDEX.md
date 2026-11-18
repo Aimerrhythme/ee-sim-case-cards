@@ -11,5 +11,6 @@
 | 2026-11-11 | `three-phase-inverter-spwm` | 三相 SPWM 逆变器 | `cases/three-phase-inverter-spwm/` |
 | 2026-11-13 | `motor-vf` | 异步电机 V/f 恒压频比控制 | `cases/motor-vf/` |
 | 2026-11-16 | `dc-motor-open-loop` | 直流电机开环启动 | `cases/dc-motor-open-loop/` |
+| 2026-11-18 | `pi-speed-loop` | 直流电机 PI 转速环 | `cases/pi-speed-loop/` |
 
 <!-- 自动化在此表追加新行，最新在下 -->

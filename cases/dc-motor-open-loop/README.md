@@ -209,4 +209,4 @@ DC motor open-loop start (separately excited / PM)
 - 案例卡字段约定：[docs/case-convention.md](../../docs/case-convention.md)
 - 电枢回路本身就是一阶 RL：[RL 电路阶跃响应（rl-step）](../rl-step/README.md)。转子卡住时本卡的电流就是那条曲线，`τ = La/Ra = 10 ms`、稳态 `Va/Ra`。
 - 交流电机的同一个问题：[异步电机 V/f 恒压频比控制（motor-vf）](../motor-vf/README.md)。那边直接加 50 Hz、380 V 的起动电流是 26.3 A，所以用频率斜坡启动；这边用的是启动电阻对照。
-- 下一张卡：直流电机 PI 转速环（`pi-speed-loop`，见 [themes.md](../../themes.md) 第 10 条）。在本卡的电机模型外面加转速 PI，把加载掉的 95 r/min 拉回来，并讨论电流限幅。
+- 下一张卡：[直流电机 PI 转速环（pi-speed-loop）](../pi-speed-loop/README.md)。在本卡的电机模型外面加转速 PI，把加载掉的 95 r/min 拉回来（带载稳态 Va = 167.47 V），并说明单环 + 电压限幅为什么压不住 367 A 的启动电流。

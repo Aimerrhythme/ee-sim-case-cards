@@ -2,6 +2,10 @@
 
 格式：`YYYY-MM-DD` · 新增/修改 · slug · 简述
 
+## 2026-11-18
+- 新增 · `pi-speed-loop` · 直流电机 PI 转速环案例卡（电机同 `dc-motor-open-loop`；理想电压源 0–220 V 限幅、钳位抗饱和；给定 1500 r/min、1 s 斜坡，1.5 s 加 20 N·m；P（Kp = 4）静差：空载 1199.400、带载 1180.311 r/min；PI-A（4, 45，零点约消电机慢极点，ζ = 0.702）跌落 18.608 r/min、231.9 ms 回到 ±2 r/min、带载 Va = 167.472 V；PI-B（4, 200，ζ = 0.285）超调 20.286 r/min、电流 46.782 A；阶跃给定电流峰值仍 367.288 A，无抗饱和超调 334.696 r/min；Simulink PID Controller 步骤，Python 可运行脚本（RK45 + Radau 核对），MATLAB 脚本）
+- 修改 · `dc-motor-open-loop` · 相关链接指向已完成的 `pi-speed-loop`
+
 ## 2026-11-16
 - 新增 · `dc-motor-open-loop` · 直流电机开环启动案例卡（他励励磁恒定 / 永磁示例，Va = 220 V、Ra = 0.5 Ω、La = 5 mH、Ke = Kt = 1 V·s/rad、J = 0.2 kg·m²、B = 0.005 N·m·s；堵转电流 Va/Ra = 440 A（22 倍额定），直接启动峰值 367.289 A @ 26.642 ms；τ_e = 10 ms、τ_m = 100 ms，真实时间常数 11.271 / 88.505 ms；空载 2095.606 r/min，0.8 s 加 20 N·m 后 2000.351 r/min、21.047 A、轴功率 4189.526 W；串 5 Ω 启动电阻峰值 39.798 A、1.5 s 转速 1541.150 r/min；Simulink 基础库 / Simscape Electrical DC Motor 步骤，MATLAB / Python 可运行脚本）
 - 修改 · `rl-step`、`motor-vf` · 相关链接指向已完成的 `dc-motor-open-loop`
