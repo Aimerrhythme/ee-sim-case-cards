@@ -2,6 +2,10 @@
 
 格式：`YYYY-MM-DD` · 新增/修改 · slug · 简述
 
+## 2026-11-20
+- 新增 · `transformer-inrush` · 变压器励磁涌流案例卡（单相 10 kVA、220 V / 50 Hz 空载合闸；R = 0.01 pu（0.0484 Ω）、Lσ = 0.02 pu（0.3081 mH）、Lm = 50 pu（0.7703 H，空载电流 2%）、两段线性 λ-i 饱和拐点 1.2 pu、空心电感 0.13 pu（2.0028 mH）、剩磁 ±0.8 pu；α = 0° + 剩磁 0.8 峰值 634.052 A（13.949 倍额定，忽略 R 粗估 687.222 A），α = 0° 无剩磁 325.036 A，α = 90° 无剩磁无涌流（1.285 A），α = 90° + 剩磁 249.301 A，选相 α = 143.130° 无涌流（1.295 A）；首周期二次谐波 17.771% / 55.430% / 65.146%（A 落在 15%~20% 制动整定之间）；A 等效衰减时间常数 171.228 ms、28 个周期后低于额定电流峰值；Simulink 基础库 / Simscape Electrical Saturable Transformer 步骤，Python 可运行脚本（RK4 + Radau 核对），MATLAB 脚本）
+- 修改 · `pi-speed-loop` · 相关链接指向已完成的 `transformer-inrush`
+
 ## 2026-11-18
 - 新增 · `pi-speed-loop` · 直流电机 PI 转速环案例卡（电机同 `dc-motor-open-loop`；理想电压源 0–220 V 限幅、钳位抗饱和；给定 1500 r/min、1 s 斜坡，1.5 s 加 20 N·m；P（Kp = 4）静差：空载 1199.400、带载 1180.311 r/min；PI-A（4, 45，零点约消电机慢极点，ζ = 0.702）跌落 18.608 r/min、231.9 ms 回到 ±2 r/min、带载 Va = 167.472 V；PI-B（4, 200，ζ = 0.285）超调 20.286 r/min、电流 46.782 A；阶跃给定电流峰值仍 367.288 A，无抗饱和超调 334.696 r/min；Simulink PID Controller 步骤，Python 可运行脚本（RK45 + Radau 核对），MATLAB 脚本）
 - 修改 · `dc-motor-open-loop` · 相关链接指向已完成的 `pi-speed-loop`

@@ -214,4 +214,4 @@ DC motor PI speed loop (single loop, Va limited to 0..220 V)
 - 被控对象：[直流电机开环启动（dc-motor-open-loop）](../dc-motor-open-loop/README.md)。本卡的电机方程、367.3 A 峰值、95.255 r/min 开环掉速都来自那里。
 - 二阶系统的 ζ 与超调：[RLC 串联阶跃（rlc-series-step）](../rlc-series-step/README.md)。PI-A 闭环 `s² + 88.73 s + 4000` 的读法和那边的 `ζ` 一样。
 - 引子：双闭环（转速外环 + 电流内环，外环输出就是电流给定，限幅即限流）是《电力拖动自动控制系统》教材的核心内容，本仓库暂未单独成卡。
-- 下一张卡：变压器励磁涌流（`transformer-inrush`，见 [themes.md](../../themes.md) 第 11 条）。
+- 下一张卡：[变压器励磁涌流（transformer-inrush）](../transformer-inrush/README.md)。换到交流侧：单相变压器空载合闸，合闸角和剩磁决定铁心会不会饱和；最严重时涌流峰值 634.052 A（13.949 倍额定），首周期二次谐波只有 17.771%。
