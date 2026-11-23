@@ -13,5 +13,6 @@
 | 2026-11-16 | `dc-motor-open-loop` | 直流电机开环启动 | `cases/dc-motor-open-loop/` |
 | 2026-11-18 | `pi-speed-loop` | 直流电机 PI 转速环 | `cases/pi-speed-loop/` |
 | 2026-11-20 | `transformer-inrush` | 变压器励磁涌流 | `cases/transformer-inrush/` |
+| 2026-11-23 | `three-phase-short-circuit` | 三相短路电流暂态 | `cases/three-phase-short-circuit/` |
 
 <!-- 自动化在此表追加新行，最新在下 -->

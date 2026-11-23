@@ -15,6 +15,6 @@
 | 9 | `dc-motor-open-loop` | 直流电机开环启动 | done | 电流冲击 |
 | 10 | `pi-speed-loop` | 直流电机 PI 转速环 | done | Kp/Ki 调试 |
 | 11 | `transformer-inrush` | 变压器励磁涌流 | done | 合闸角影响 |
-| 12 | `three-phase-short-circuit` | 三相短路电流暂态 | todo | 非周期分量 |
+| 12 | `three-phase-short-circuit` | 三相短路电流暂态 | done | 非周期分量 |
 | 13 | `pll-grid-sync` | SRF-PLL 锁相 | todo | 动态跟踪 |
 | 14 | `pv-mppt-po` | 光伏 MPPT 扰动观察法 | todo | 步长取舍 |

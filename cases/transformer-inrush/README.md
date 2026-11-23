@@ -227,4 +227,4 @@ Single-phase transformer no-load energization (inrush)
 - 合闸角与直流分量：[RL 电路阶跃响应（rl-step）](../rl-step/README.md)。那边是直流电源阶跃；把电源换成正弦，电流里同样会出现由合闸角决定、按 `L/R` 衰减的直流分量，本卡把它放到了磁链上。
 - 另一种合闸冲击：[单相桥式整流 + 电容滤波（single-phase-rectifier）](../single-phase-rectifier/README.md)。那边峰值合闸冲击最大（电容电流正比于 dv/dt），本卡过零合闸冲击最大（磁链正比于 ∫v dt），正好相反。
 - 上一张卡：[直流电机 PI 转速环（pi-speed-loop）](../pi-speed-loop/README.md)。
-- 下一张卡：三相短路电流暂态（`three-phase-short-circuit`，见 [themes.md](../../themes.md) 第 12 条）。短路电流里的非周期分量与本卡的直流磁链是同一个数学结构：合闸（短路）瞬间的相位决定直流分量大小。
+- 下一张卡：[三相短路电流暂态（three-phase-short-circuit）](../three-phase-short-circuit/README.md)。短路电流里的非周期分量与本卡的直流磁链是同一个数学结构：合闸（短路）瞬间的相位决定直流分量大小。

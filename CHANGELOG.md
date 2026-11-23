@@ -2,6 +2,10 @@
 
 格式：`YYYY-MM-DD` · 新增/修改 · slug · 简述
 
+## 2026-11-23
+- 新增 · `three-phase-short-circuit` · 三相短路电流暂态案例卡（10.5 kV 无限大电源经 X = 0.5 Ω、R = 0.031831 Ω（X/R = 15.708，Ta = 50 ms）线路供电，短路前负荷 13.6 + j6.6 Ω/相（394.416 A，cos φ0 = 0.887），t_f = 40 ms 三相金属性接地短路；Ipm = 17.112 kA、Ip = 12.100 kA、Sk = 220.05 MVA；A（α = 177.98°，a 相非周期分量最大）i_ap0 = −16.830 kA、冲击电流 30.939 kA（Kim = 1.808）；B（α = 87.98°，a 相无非周期分量）c 相仍 29.490 kA（1.723 Ipm）；C（空载 α = φk + 90°）31.145 kA，Kim = 1.820 vs 教材 1 + e^(−0.01/Ta) = 1.8187；α 扫描三相最大瞬时值 29.103~30.967 kA（≥ 1.70 Ipm）；三相 i_ap0 之和 ~1e-12 A；每周期平均值拟合 Ta = 50.000 ms；X/R 扫描 Kim 精确值 vs 近似（3 → 1.3786 / 1.3509，50 → 1.9395 / 1.9391）；RK4 与解析解最大偏差 1.3e-13 Ipm；Simulink 基础库 / Simscape Electrical Three-Phase Fault 步骤，Python 可运行脚本，MATLAB 脚本）
+- 修改 · `transformer-inrush` · 相关链接指向已完成的 `three-phase-short-circuit`
+
 ## 2026-11-20
 - 新增 · `transformer-inrush` · 变压器励磁涌流案例卡（单相 10 kVA、220 V / 50 Hz 空载合闸；R = 0.01 pu（0.0484 Ω）、Lσ = 0.02 pu（0.3081 mH）、Lm = 50 pu（0.7703 H，空载电流 2%）、两段线性 λ-i 饱和拐点 1.2 pu、空心电感 0.13 pu（2.0028 mH）、剩磁 ±0.8 pu；α = 0° + 剩磁 0.8 峰值 634.052 A（13.949 倍额定，忽略 R 粗估 687.222 A），α = 0° 无剩磁 325.036 A，α = 90° 无剩磁无涌流（1.285 A），α = 90° + 剩磁 249.301 A，选相 α = 143.130° 无涌流（1.295 A）；首周期二次谐波 17.771% / 55.430% / 65.146%（A 落在 15%~20% 制动整定之间）；A 等效衰减时间常数 171.228 ms、28 个周期后低于额定电流峰值；Simulink 基础库 / Simscape Electrical Saturable Transformer 步骤，Python 可运行脚本（RK4 + Radau 核对），MATLAB 脚本）
 - 修改 · `pi-speed-loop` · 相关链接指向已完成的 `transformer-inrush`
