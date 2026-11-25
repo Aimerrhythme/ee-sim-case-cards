@@ -218,4 +218,4 @@ Three-phase symmetrical short circuit fed by an infinite bus
 - 案例卡字段约定：[docs/case-convention.md](../../docs/case-convention.md)
 - 换路与时间常数：[RL 电路阶跃响应（rl-step）](../rl-step/README.md)。本卡把直流电源换成三相正弦电源，非周期分量的衰减时间常数就是那里的 τ = L/R。
 - 上一张卡：[变压器励磁涌流（transformer-inrush）](../transformer-inrush/README.md)。那边直流分量出现在磁链上、经饱和放大成几百倍空载电流；本卡直接出现在电流上，最多接近 2 倍周期分量幅值。两者都是「电压过零时换路最严重」。
-- 下一张卡：SRF-PLL 锁相（`pll-grid-sync`，见 [themes.md](../../themes.md) 第 13 条）。
+- 下一张卡：[SRF-PLL 锁相（pll-grid-sync）](../pll-grid-sync/README.md)。短路切除、电压暂降常伴随相位跳变，那张卡看并网锁相环多久重新锁定、暂降时为什么要做幅值归一化。
