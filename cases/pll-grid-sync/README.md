@@ -251,4 +251,4 @@ SRF-PLL grid synchronization (teaching example)
 - 同一套 PI 设计思路：[直流电机 PI 转速环（pi-speed-loop）](../pi-speed-loop/README.md)。那里 PI 零点对消电机慢极点，这里被控对象是纯积分器 θ = ∫ω，零点保留下来带来较大超调。
 - 三相 / αβ 坐标：[三相 SPWM 逆变器（three-phase-inverter-spwm）](../three-phase-inverter-spwm/README.md)。PLL 输出的 θ̂ 就是并网时调制波的参考相位。
 - 上一张卡：[三相短路电流暂态（three-phase-short-circuit）](../three-phase-short-circuit/README.md)。短路切除、电压暂降往往伴随相位跳变，正是本卡工况 D 的来源。
-- 下一张卡：光伏 MPPT 扰动观察法（`pv-mppt-po`，见 [themes.md](../../themes.md) 第 14 条）。
+- 下一张卡：[光伏 MPPT 扰动观察法（pv-mppt-po）](../pv-mppt-po/README.md)。PLL 负责「往哪个角度送」，MPPT 负责「从光伏取多少功率」，两者一起构成光伏并网逆变器的控制主干。

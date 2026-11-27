@@ -17,4 +17,4 @@
 | 11 | `transformer-inrush` | 变压器励磁涌流 | done | 合闸角影响 |
 | 12 | `three-phase-short-circuit` | 三相短路电流暂态 | done | 非周期分量 |
 | 13 | `pll-grid-sync` | SRF-PLL 锁相 | done | 动态跟踪 |
-| 14 | `pv-mppt-po` | 光伏 MPPT 扰动观察法 | todo | 步长取舍 |
+| 14 | `pv-mppt-po` | 光伏 MPPT 扰动观察法 | done | 步长取舍 |

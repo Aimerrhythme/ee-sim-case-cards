@@ -15,5 +15,6 @@
 | 2026-11-20 | `transformer-inrush` | 变压器励磁涌流 | `cases/transformer-inrush/` |
 | 2026-11-23 | `three-phase-short-circuit` | 三相短路电流暂态 | `cases/three-phase-short-circuit/` |
 | 2026-11-25 | `pll-grid-sync` | SRF-PLL 锁相 | `cases/pll-grid-sync/` |
+| 2026-11-27 | `pv-mppt-po` | 光伏 MPPT 扰动观察法 | `cases/pv-mppt-po/` |
 
 <!-- 自动化在此表追加新行，最新在下 -->
